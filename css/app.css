@@ -1,12 +1,29 @@
-
 .convenios {
     margin-top: 24px;
+
 }
 
-.convenios .convenios-item{
-    display: flex;
+.convenios-item{
+    background: #F8FAF9;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    padding: 16px;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
+}
+
+.convenios-item h5 {
+    font-weight:bold;
+}
+
+.convenios-item p {
+    color: #868B90;
+}
+
+.convenios-images {
+    border-radius: 5px;
+    margin-bottom: 16px;
 }
 
 .disciplinas {
@@ -131,10 +148,10 @@
   
 
 .marketing-site-hero {
-    background: #B0F2FC;
-    border-bottom-left-radius: 80% 80%;
-    border-bottom-right-radius: 80% 80%;
-    height: 56vh;
+    /* border-bottom: 1px solid #f0f0f0; */
+    /* border-bottom-left-radius: 80% 80%;
+    border-bottom-right-radius: 80% 80%; */
+    height: 40vh;
     text-align: center;
     background-size: cover;
     display: -webkit-flex;
@@ -179,4 +196,8 @@
 
   .marketing-site-hero-content-logo {
       margin-bottom: 48px;
+  }
+
+  .round {
+      border-radius: 50px;
   }
